@@ -1,0 +1,101 @@
+/* Author: Juan Carlo Soriano
+Student Number: 301262744 */
+
+body {
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: #333;
+}
+
+#products {
+  max-width: 980px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 40px auto;
+  min-height: 80vh;
+}
+
+.card {
+  width: 200px;
+  margin: 0px 8px 20px;
+  background-color: #f7f7f7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: fit-content;
+}
+
+.card-img {
+  width: 200px;
+}
+
+.card-title {
+  padding: 0 10px;
+}
+
+.card-price {
+  display: block;
+  padding: 0 10px;
+}
+
+.card-description {
+  display: block;
+  height: 40px;
+  padding: 0 10px;
+}
+
+.card-btn {
+  width: 100%;
+  padding: 10px 8px;
+  cursor: pointer;
+  background-color: orange;
+  border: 1px solid orange;
+}
+
+.card-btn:hover {
+  background-color: white;
+  border: 1px solid orange;
+  color: orange;
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-box {
+  margin: 20% auto;
+  width: 40%;
+  height: 20px;
+  background-color: white;
+}
+
+.modal-progress {
+  background-color: #90EE90;
+  height: 20px;
+}
+
+.isLoading {
+  overflow: hidden;
+}
+
+footer {
+  width: 100%;
+  background-color: #4c3c3c;
+  color: #f7f7f7;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
